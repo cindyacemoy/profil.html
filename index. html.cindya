@@ -1,0 +1,101 @@
+    .header{
+        arah-fleksibel: kolom;
+        teks-sejajar:tengah;
+    }
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <img src="IMG-20260406-WA0060.jpg" alt="Foto Profil" class="profile-img">
+
+        <div class="info">
+            <h1>Cindya Putri Zahrotu Sylfa/h1>
+            <h3>Pelajar</h3>
+
+            <p>
+                Saya adalah siswi yang memiliki minat pada bidang
+                teknologi, farmasi.
+                Senang belajar hal baru.
+            </p>
+        </div>
+    </div>
+
+    <div class="grid">
+
+        <div class="data kartu">
+            <h2>Data Diri</h2>
+
+            <p><b>Nama :</b> Cindya Putri Zahrotu Sylfa</p>
+            <p><b>Status :</b> Pelajar</p>
+            <p><b>Hobi :</b> Bepergian</p>
+            <p><b>Cita-cita :</b> Apoteker</p>
+            <p><b>Negara :</b> Indonesia</p>
+        </div>
+
+        <div class="XB FARMASI">
+            <h2>Keahlian</h2>
+
+            <div class="keterampilan">
+                <div class="skill-name">mampu mengendalikan emosi</div>
+                <div class="bar"><div class="fill" style="width:90%"></div></div>
+            </div>
+
+            <div class="keterampilan">
+                <div class="skill-name">mudah untuk beradaptasi</div>
+                <div class="bar"><div class="fill" style="width:85%"></div></div>
+            </div>
+
+            <div class="keterampilan">
+                <div class="skill-name">menjadi pendengar yang baik</div>
+                <div class="bar"><div class="fill" style="width:95%"></div></div>
+            </div>
+
+            <div class="keterampilan">
+                <div class="skill-name">Microsoft Office</div>
+                <div class="bar"><div class="fill" style="width:88%"></div></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="project">
+        <div class="card">
+            <h2>Proyek & Karya</h2>
+
+            <div class="project-card">
+                <h3>Portofolio Situs Web</h3>
+                <p>Membuat profil situs web menggunakan HTML dan CSS.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Poster Desain</h3>
+                <p>Membuat berbagai desain kreatif menggunakan Canva.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="sosial">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+
+    <footer>
+        © 2026 Cindya Putri Zahrotu Sylfa
+    </footer>
+
+</div>
+
+</body>
+</html>
